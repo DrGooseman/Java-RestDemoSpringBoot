@@ -2,7 +2,7 @@ package com.bbs;
 
 public class CustomerNotFoundException extends RuntimeException {
 
-	CustomerNotFoundException(int id) {
+	CustomerNotFoundException(long id) {
 		    super("Could not find customer " + id);
 		  }
 	
